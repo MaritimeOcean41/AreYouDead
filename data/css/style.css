@@ -1,0 +1,39 @@
+@import url("https://maritimeocean41.github.io/fonts/main.css");
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  background-color: #010101;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container a {
+  display: block;
+  width: 100vw;
+  min-height: 64px;
+  color: #fff;
+  text-align: center;
+}
+
+.container .title {
+  margin-top: 180px;
+  font-size: 3em;
+}
+
+.container .desc {
+  font-size: 5em;
+  font-weight: 600;
+}
+
+canvas {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+}
+/*# sourceMappingURL=style.css.map */
